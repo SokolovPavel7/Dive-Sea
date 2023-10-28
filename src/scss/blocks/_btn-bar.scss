@@ -1,0 +1,43 @@
+.btn-bar {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 166px;
+    height: 69px;
+    padding: 21.56px;
+    column-gap: 69px;
+    border: 1px solid transparent;
+
+    border-radius: 17.247px;
+    background-color: #fcfcfd;
+    box-shadow: 0px 43.11688px 34.49351px -25.87013px rgba(15, 15, 15, 0.12);
+
+    transition: all 0.3s ease-in;
+
+    &:hover {
+        border: 2.156px solid #e6e8ec;
+        filter: brightness(0.95);
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+
+        width: 2.156px;
+        height: 25.87px;
+        border-radius: 2.156px;
+        background: #e6e8ec;
+        transition: all 0.2 ease-in-out;
+    }
+
+    img {
+        background: #fcfcfd;
+        border-radius: 50%;
+        transition: all 0.3 ease-in;
+
+        &:hover {
+            filter: brightness(0.95);
+        }
+    }
+}
