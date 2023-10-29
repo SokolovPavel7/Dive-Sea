@@ -10,8 +10,6 @@
 // font-family: 'Roboto', sans-serif;
 // font-family: 'Urbanist', sans-serif;
 
-
-
 html {
     scroll-behavior: smooth;
 }
@@ -20,4 +18,8 @@ body {
     background-color: var(--page-bg);
     color: var(--text-color);
     font-family: var(--font-main);
+}
+
+.weekly {
+    background-color: var(--page-bg1);
 }

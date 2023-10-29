@@ -1,6 +1,5 @@
 .discover {
     padding: 16px 0px 143px;
-    
 }
 
 .discover__grid {
@@ -151,6 +150,7 @@
     left: 1040px;
     top: 0px;
 }
+
 .discover__arrow {
     &::before {
         content: '';
@@ -181,5 +181,3 @@
         background-repeat: no-repeat;
     }
 }
-
-
