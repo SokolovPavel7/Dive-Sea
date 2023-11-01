@@ -3,14 +3,21 @@
         <div class="weekly__title">
             <h2>Weekly - Top NFT</h2>
         </div>
+    </div>    
 
+    <div class="container-right">
         <div class="weekly__slider">
-            
-
-            @@include('elements/swiper.html')
-            
+            <!-- Swiper -->
+            <div class="swiper" id="swiperWeekly">
+                <div class="swiper-wrapper">
+                    @@loop('elements/card.html', 'data/weekly.json')
+                </div>
+            </div>
+            <!-- Swiper end -->
         </div>
+    </div>
 
+    <div class="container">
         <div class="weekly__btn">
             @@include('elements/btnBarWeekly.html')
         </div>

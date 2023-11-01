@@ -2,14 +2,14 @@ import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
 function swiperWeekly() {
-    const swiper = new Swiper('.swiper', {
+    const swiper = new Swiper('#swiperWeekly', {
         direction: 'horizontal',
         loop: true,
         slidesPerView: 1,
         spaceBetween: 32,
         navigation: {
-            nextEl: '#btnRight',
-            prevEl: '#btnLeft',
+            nextEl: '#weeklyNext',
+            prevEl: '#weeklyPrev',
         },
         breakpoints: {
             425: {
