@@ -1,11 +1,15 @@
+.swiper-slide {
+    padding: 39px 12px 59px 0px;
+}
+
 .card {
+    position: relative;
     max-width: 281px;
-    // max-height: 402px;
     padding: 13px;
 
     border-radius: 23px;
     background: #fff;
-    // box-shadow: 39px 12px 59px 0px rgba(199, 199, 199, 0.6);
+    box-shadow: 39px 12px 59px 0px rgba(199, 199, 199, 0.6);
 }
 
 .card__font {

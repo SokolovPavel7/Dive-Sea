@@ -1,14 +1,10 @@
 .weekly {
-    display: flex;
-    flex-direction: column;
-    // justify-content: center;
-    // align-items: center;
     padding: 70px 0 90px;
 }
 
 .weekly__title {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 61px;
     color: var(--text-title-muted);
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 45px;
@@ -18,12 +14,7 @@
 }
 
 .weekly__slider {
-    // display: flex;
-    // flex-shrink: 0;
-    // justify-content: center;
-    // align-items: center;
-    // column-gap: 10px;
-    margin-bottom: 115px;
+    margin-bottom: 56px;
 }
 
 .weekly__btn {
