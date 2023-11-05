@@ -113,6 +113,7 @@
 }
 
 .discover__rectangle {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,24 +123,18 @@
 
 .discover__rectangle-img {
     position: relative;
-    flex-shrink: 0;
+}
+
+.swiper-discover {
+    width: 391px;
+}
+
+.discover__img {
+    width: 391px;
+    height: 394px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
     margin-bottom: 69px;
-
-    &::after {
-        position: absolute;
-        flex-shrink: 0;
-        border-radius: 12px;
-
-        content: '';
-        left: 0px;
-        top: 21px;
-        width: 391px;
-        height: 395px;
-
-        background-image: url('./../img/discover/rectangle-2.png');
-        filter: blur(42px);
-        background-repeat: no-repeat;
-    }
 }
 
 .discover__arrow {

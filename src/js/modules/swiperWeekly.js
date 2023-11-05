@@ -2,7 +2,7 @@ import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
 function swiperWeekly() {
-    const swiper = new Swiper('#swiperWeekly', {
+    const swiper = new Swiper('#swiper-weekly', {
         direction: 'horizontal',
         loop: true,
         slidesPerView: 1,

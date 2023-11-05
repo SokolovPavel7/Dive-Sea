@@ -4,7 +4,7 @@
     row-gap: 32px;
     width: 365px;
     padding: 26px 24px;
-   
+
     position: absolute;
     right: 0px;
     top: -360px;
@@ -26,15 +26,8 @@
     font-weight: 600;
     line-height: 1.3; /* 28.35px */
     letter-spacing: 0.2px;
-
-    a {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: -10px;
-        color: #cbd5e0;
-    }
 }
+
 .recent__profile {
     display: flex;
     justify-content: space-between;

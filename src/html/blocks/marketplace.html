@@ -1,0 +1,19 @@
+<section class="marketplace">
+    <div class="container">
+        <div class="marketplace__wrapper">
+            <h2 class="marketplace__title title-black">Explore Marketplace</h2>
+            <div class="marketplace__btn">
+                <button class="marketplace__btn-all">All</button>
+                <button class="marketplace__btn-category">Category</button>
+                <button class="marketplace__btn-collection">Collection</button>
+                <button class="marketplace__btn-price">Price</button>
+            </div>
+            <div class="marketplace__card">
+                @@loop('elements/card.html', 'data/weekly.json')
+            </div>
+        </div>
+        <div class="marketplace__explore">
+            <a href="#!"><img class="marketplace__img" src="./../img/marketplace/marketplace-view.svg" alt=""></a>
+        </div> 
+    </div>
+</section>

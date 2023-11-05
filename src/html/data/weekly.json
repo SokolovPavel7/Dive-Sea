@@ -28,5 +28,15 @@
         "img": "image-3.jpg",
         "title": "Sun-Glass",
         "value": "1.75"
+    },
+    {
+        "img": "image-4.jpg",
+        "title": "NuEvey",
+        "value": "1.75"
+    },
+    {
+        "img": "image-5.jpg",
+        "title": "NuEvey",
+        "value": "1.75"
     }
 ]
