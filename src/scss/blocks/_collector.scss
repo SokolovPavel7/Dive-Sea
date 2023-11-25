@@ -1,0 +1,189 @@
+.collector {
+    padding-bottom: 90px;
+}
+.collector__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding-top: 113px;
+    column-gap: 281px;
+}
+// .collector__info {}
+.collector__title {
+    margin-bottom: 45px;
+    color: #18181b;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.2;
+    span {
+        color: #c5c5c5;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.2; /* 120.889% */
+    }
+}
+.collector__list {
+    margin-bottom: 70px;
+    color: #12141d;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2; /* 200% */
+    li {
+        position: relative;
+        margin-bottom: 12px;
+        padding-left: 32px;
+
+        &::before {
+            content: '';
+
+            position: absolute;
+            left: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 20px;
+            height: 20px;
+
+            background-image: url('./../img/collector/icon.svg');
+            background-repeat: no-repeat;
+        }
+    }
+}
+.collector__btn {
+    position: relative;
+    padding: 20px 48px 20px 21px;
+    border-radius: 12px;
+    background-color: #000;
+
+    color: #fff;
+    font-size: 14.76px;
+    line-height: 1.25; /* 125% */
+
+    transition: all 0.3s ease-in;
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &::after {
+        content: '';
+
+        position: absolute;
+        left: 127px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 22px;
+        height: 22px;
+
+        background-image: url('./../../img/collector/arrow-right.svg');
+        background-repeat: no-repeat;
+    }
+}
+.collector__sellers {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+
+    padding: 26px 20px;
+    width: 322px;
+    border-radius: 14px;
+    border: 0.9px solid #edf2f7;
+    background: #fff;
+    box-shadow: 9px 9px 44px 0px rgba(20, 20, 22, 0.1);
+}
+.collector__seller-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // white-space: nowrap; //запрет переноса текста
+    color: #1a202c;
+    font-size: 18.532px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.35; /* 25.018px */
+    letter-spacing: 0.176px;
+    img {
+        margin-top: 8px;
+    }
+    margin-bottom: 23.5px;
+}
+.collector__recent {
+    position: absolute;
+    left: -179px;
+    bottom: -65px;
+}
+.collector__rotation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 11.39px;
+
+    position: absolute;
+    right: -50%;
+    top: -47px;
+
+    padding: 11.4px;
+    border-radius: 13.291px;
+    background: linear-gradient(
+        217deg,
+        #fcfcfd -0.01%,
+        rgba(252, 252, 253, 0.6) 100%
+    );
+    box-shadow: 0px 18.98773px 28.48159px 0px rgba(70, 70, 70, 0.1);
+    backdrop-filter: blur(15.190183639526367px);
+}
+.collector__left {
+    display: flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 13.39px;
+}
+.collector__avatar {
+    position: relative;
+    padding-left: 21px;
+
+    &::before {
+        content: '';
+
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 7.6px;
+        height: 7.6px;
+        
+        background-image: url('./../img/sellers/ellipse.svg');
+        background-repeat: no-repeat;
+    }
+}
+.collector__info {
+    color: #949494;
+    font-size: 13.291px;
+    line-height: 1.71; /* 171.429% */
+    span {
+        color: var(--text-color);
+    }
+    i {
+        font-style: normal;
+        color: var(--text-color);
+        font-size: 11.393px;
+        font-weight: 600;
+        line-height: 1.66; /* 166.667% */
+    }
+    input {
+        font-weight: 400;
+        line-height: 1.66;
+    }
+}
+.collector__img img {
+    border-radius: 10.44px;
+}
+.collector__ornament {
+    position: absolute;
+    z-index: -1;
+    right: -335px;
+    bottom: -35px;
+}
+

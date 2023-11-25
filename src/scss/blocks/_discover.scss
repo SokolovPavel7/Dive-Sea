@@ -15,12 +15,24 @@
 }
 
 .discover__title {
+    position: relative;
     font-size: 75px;
     font-style: normal;
     font-weight: 600;
     line-height: 1.2; /* 90px */
     letter-spacing: -3px;
     margin-bottom: 16px;
+
+    &::before {
+        content: '';
+
+        position: absolute;
+        left: 0px;
+        top: -10px;
+        width: 195px;
+        height: 1px;
+        background: rgb(31, 30, 30, 0.2);
+    }
 }
 .discover__info {
     margin-bottom: 45px;

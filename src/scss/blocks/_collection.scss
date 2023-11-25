@@ -1,7 +1,6 @@
 .collection {
     padding: 236px 0px 100px;
 }
-
 .collection__title {
     text-align: center;
     line-height: 44.751px; /* 99.357% */
@@ -14,7 +13,11 @@
     flex-direction: column;
     // column-gap: 30px;
 }
-
+.collection__recent {
+    position: absolute;
+    right: 0px;
+    top: -360px;
+}
 .collection__row-title {
     display: grid;
     grid-template-columns: minmax(115px, 200px) 100px 100px 100px 100px 100px;
@@ -56,9 +59,13 @@
 
 .collection__explore {
     position: relative;
+    transition: all 0.3s ease-in;
 
     a {
         position: absolute;
         right: 0px;
+    }
+    &:hover {
+        opacity: 0.8;
     }
 }

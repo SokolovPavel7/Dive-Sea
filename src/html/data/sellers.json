@@ -1,0 +1,38 @@
+[
+    {
+        "img": "avatar1.svg",
+        "count": 1,
+        "name": "Alex Ca.",
+        "nick": "@Alexy"
+    },
+    {
+        "img": "avatar2.svg",
+        "count": 2,
+        "name": "Juliya Sa.",
+        "nick": "@JuliyaS"
+    },
+    {
+        "img": "avatar3.svg",
+        "count": 2,
+        "name": "Juliya Sa.",
+        "nick": "@JuliyaS"
+    },
+    {
+        "img": "avatar4.svg",
+        "count": 3,
+        "name": "Trevor Pu.",
+        "nick": "@TrevorP"
+    },
+    {
+        "img": "avatar5.svg",
+        "count": 5,
+        "name": "Alex Ca.",
+        "nick": "@Alexy"
+    },
+    {
+        "img": "avatar6.svg",
+        "count": 6,
+        "name": "Alex Ca.",
+        "nick": "@Alexy"
+    }
+]

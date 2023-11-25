@@ -1,0 +1,51 @@
+<section class="collector">
+    <div class="container">
+        <div class="collector__wrapper">
+            <div class="collector__info">
+                <h2 class="collector__title"><span>Just Unleash -</span><br>Your Inner Collector</h2>
+                <ul class="collector__list">
+                    <li>Best Seller All Around World</li>
+                    <li>$2M+ Transections Every Day</li>
+                    <li>Secure Transactions</li>
+                    <li>Exclusive Collections From Sellers</li>
+                    <li>Easy Buying and Selling</li>
+                    <li>Join Our Community</li>
+                </ul>
+                <button class="collector__btn">Explore More</button>
+            </div>
+            <div class="collector__sellers">
+                <div class="collector__seller">
+                    <div class="collector__seller-top">
+                        <h4>Best Sellers</h4>
+                        <button type="button">
+                            <img src="./img/collector/dots-vertical.svg" alt="btn">
+                        </button>
+                    </div>
+                    @@loop('./elements/seller.html', 'data/sellers.json')
+                </div>
+                <div class="collector__recent">
+                    @@include('./elements/recent.html')
+                </div>
+                <div class="collector__rotation">
+                    <div class="collector__left">
+                        <div class="collector__avatar">
+                            <img src="./img/sellers/avatar-v.svg" alt="">
+                        </div>
+                        <div class="collector__info">
+                            <h4>New bid <span>Rotation</span></h4>
+                            <i>0.002 ETH</i>
+                            <form><input type="date"></form>
+                        </div>
+                    </div>
+                    <div class="collector__img">
+                        <img src="./../../img/sellers/frame-1064.jpg" alt="">
+                    </div>
+                </div>
+                <div class="collector__ornament">
+                    <img src="./img/sellers/ornament.svg" alt="">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>

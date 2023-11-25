@@ -1,5 +1,5 @@
 .marketplace {
-    border-bottom: 0.7px solid #cbcbcb;
+    
 }
 
 .marketplace__wrapper {
@@ -87,11 +87,17 @@
 
 .marketplace__explore {
     position: relative;
-    margin-bottom: 103px;
+    padding-bottom: 103px;
+    border-bottom: 0.7px solid #cbcbcb;
 
     a {
         position: absolute;
         right: 0;
         margin-bottom: 103px;
+        transition: all 0.3s ease-in;
+        &:hover {
+            opacity: 0.8;
+        }
     }
+    
 }

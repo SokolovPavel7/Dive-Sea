@@ -1,0 +1,95 @@
+.create {
+    margin: 90px 0 80px;
+}
+.create__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 31px 31px 31px 66px;
+    border-radius: 30px;
+    background-color: var(--dark-bg);
+}
+.create__left {
+    color: #fff;
+    line-height: 1.3; /* 58.5px */
+    h2 {
+        font-size: 45px;
+        font-weight: 600;
+
+        letter-spacing: 0.45px;
+        margin-bottom: 12.48px;
+    }
+    p {
+        color: rgb(212, 212, 212, 0.6);
+        font-size: 20.265px;
+        letter-spacing: 0.203px;
+        margin-bottom: 50.83px;
+    }
+}
+.create__btns {
+    display: flex;
+    column-gap: 30.51px;
+    align-items: center;
+}
+.create__explore {
+    padding: 19.8px 25.9px;
+    border-radius: 12.2px;
+    background-color: #fff;
+    color: var(--text-color);
+    font-family: Outfit;
+    font-size: 21.357px;
+    font-weight: 600;
+    line-height: 1.3; /* 27.764px */
+    letter-spacing: 0.214px;
+
+    &:hover {
+        position: relative;
+        top: -1px;
+        transition: color 0.3s ease-in;
+    }
+}
+.create__sell {
+    padding: 19.831px 25.933px;
+    border-radius: 12.204px;
+    border: 2.288px solid #fff;
+
+    color:#fff;
+    font-family: Outfit;
+    font-size: 21.357px;
+    font-weight: 600;
+    line-height: 1.3; /* 27.764px */
+    letter-spacing: 0.214px;
+
+    &:hover {
+        position: relative;
+        top: -1px;
+        transition: color 0.3s ease-in;
+    }
+}
+.create__img {
+    position: relative;
+
+    img {
+        position: relative;
+        border-radius: 15.79px;
+        border: 1px solid #000;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    &::before {
+        content: '';
+
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 369px;
+        height: 249px;
+
+        background-image: url('./../../img/create/rectangle-bg.jpg');
+        background-repeat: no-repeat;
+        border-radius: 7.554px;
+        border: 1px solid #000;
+        filter: blur(26px);
+    }
+}

@@ -5,9 +5,7 @@
     width: 365px;
     padding: 26px 24px;
 
-    position: absolute;
-    right: 0px;
-    top: -360px;
+    
 
     border-radius: 16px;
     border: 1px solid #edf2f7;
@@ -26,6 +24,10 @@
     font-weight: 600;
     line-height: 1.3; /* 28.35px */
     letter-spacing: 0.2px;
+
+    img {
+        margin-top: 8px;
+    }
 }
 
 .recent__profile {
