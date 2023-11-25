@@ -3,7 +3,7 @@ const sellersBtn = () => {
 
     btns.forEach((btn) =>
         btn.addEventListener('click', () => {
-            btn.classList.toggle('active');
+            btn.classList.toggle('seller__btn--active');
             if (btn.innerHTML === 'Follow') {
                 btn.innerHTML = 'Unfollow';
             } else {
