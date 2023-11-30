@@ -1,5 +1,5 @@
 @mixin btn {
-    border: 2.21px solid var(--text-color);
+    border: 2.5px solid var(--text-color);
     border-radius: 13px;
 
     color: #1a202c;
@@ -9,5 +9,17 @@
     font-weight: 600;
     line-height: 1.5; /* 23.208px */
     letter-spacing: 0.221px;
-    
+}
+@mixin btn-discover {
+    padding: 17.35px 17.41px 17.35px 53.55px;
+    border-radius: 14px;
+    border: 2.5px solid (var(--text-color));
+
+    color:  #1a202c;
+    font-family: Manrope;
+    font-size: 16.435px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5; /* 24.653px */
+    letter-spacing: 0.235px;
 }

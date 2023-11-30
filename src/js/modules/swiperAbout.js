@@ -1,17 +1,17 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
-function swiperDiscover() {
-    const swiper = new Swiper('#swiper-discover', {
+function swiperAbout() {
+    const swiper = new Swiper('#swiper-about', {
         effect: 'fade',
         loop: true,
         slidesPerView: 1,
         spaceBetween: 32,
         navigation: {
-            nextEl: '#RightDiscover',
-            prevEl: '#LeftDiscover',
+            nextEl: '#RightAbout',
+            prevEl: '#LeftAbout',
         },
     });
 }
 
-export default swiperDiscover;
+export default swiperAbout;

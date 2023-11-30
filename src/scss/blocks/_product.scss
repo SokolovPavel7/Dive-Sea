@@ -1,0 +1,193 @@
+.product {
+    padding: 50px 0px 160px;
+
+    &--none {
+        display: none;
+    }
+}
+.product__link {
+    margin-bottom: 55px;
+
+    position: relative;
+    left: 0px;
+
+    font-size: 31.063px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0.888; /* 88.889% */
+    padding-left: 71.3px;
+    transition: all 0.5s ease 0.1s;
+    a {
+        color: #23262f;
+    }
+
+    &:hover {
+        left: -30px;
+    }
+
+    &::before {
+        content: '';
+
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 36.8px;
+        height: 36.8px;
+
+        background-image: url('./../img/product/icon-left.svg');
+        background-repeat: no-repeat;
+    }
+}
+.product__board {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 135px;
+    border-radius: 24.4px;
+    background: #fafafa;
+    box-shadow: 17.5px 17.5px 61px 0px rgba(0, 0, 0, 0.12);
+    padding: 38px;
+    margin-bottom: 132px;
+}
+.product__img {
+    img {
+        max-width: 564px;
+        border-radius: 24px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+}
+.product__info {
+    display: flex;
+    flex-direction: column;
+}
+.product__title {
+    color: #292b39;
+    font-size: 51.043px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0.62; /* 62.339% */
+    margin-bottom: 29.5px;
+}
+.product__text {
+    color: rgba(136, 136, 136, 0.7);
+    font-size: 19.002px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.53; /* 153.333% */
+    margin-bottom: 71px;
+}
+.product__owner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 63px;
+}
+.product__created {
+    display: flex;
+    align-items: center;
+    gap: 17.2px;
+}
+.product__name {
+    display: flex;
+    flex-direction: column;
+    i {
+        color: #8d8d8d;
+        font-size: 17.681px;
+        font-weight: 400;
+    }
+    span {
+        color: #000;
+        font-size: 25.568px;
+        font-weight: 500;
+        line-height: 1.53; /* 153.333% */
+    }
+}
+.product__owned {
+    display: flex;
+    align-items: center;
+    gap: 17.2px;
+}
+.product__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.product__value {
+    h5 {
+        color: #8c8c8c;
+        font-size: 17.861px;
+        font-weight: 400;
+        line-height: 1.23; /* 123.077% */
+    }
+}
+.product__number {
+    position: relative;
+    color: #292b39;
+    font-size: 33px;
+    font-weight: 600;
+    padding-left: 31px;
+
+    &::before {
+        content: '';
+
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 22px;
+        height: 35px;
+
+        background-image: url('./../../img/product/ethereum.svg');
+        background-repeat: no-repeat;
+    }
+}
+.product__time {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    color: #8c8c8c;
+    font-size: 17.861px;
+    font-weight: 400;
+    line-height: 1.23; /* 123.077% */
+    row-gap: 9px;
+}
+.product__date {
+    color: #000;
+    font-size: 19.235px;
+    font-weight: 400;
+    line-height: 1.57; /* 157.143% */
+}
+.product__btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 19.6px;
+    background: var(--dark-bg);
+    padding: 25px;
+
+    color: #fff;
+    font-size: 18.4px;
+    font-weight: 700;
+    line-height: 1.53; /* 153.333% */
+    opacity: 1;
+    transition: all 0.3s ease-in;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+.product__title-2 {
+    color: #c3c3c3;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 0.88; /* 88.889% */
+    margin-bottom: 44px;
+}
+.product__cards {
+    display: flex;
+    gap: 42px;
+}

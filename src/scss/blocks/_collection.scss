@@ -59,13 +59,14 @@
 
 .collection__explore {
     position: relative;
-    transition: all 0.3s ease-in;
 
     a {
         position: absolute;
         right: 0px;
-    }
-    &:hover {
-        opacity: 0.8;
+        transition: all 0.3s ease-in 0.1s;
+
+        &:hover {
+            right: -30px;
+        }
     }
 }

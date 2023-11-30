@@ -1,50 +1,17 @@
-<section class="discover" id="discover">
+<section class="discover">
     <div class="container">
-        <div class="discover__grid">
-            <div class="discover__desc">
-                <div class="discover__title">
-                    <h1>Discover And Create NFTs</h1>
-                </div>
-                <div class="discover__info">Discover, Create and Sell NFTs On Our NFT Marketplace With Over Thousands Of NFTs And Get a <i>$20 bonus.</i></div>
-                <form action="" class="discover__form">
-                    <button class="discover__explore-btn" id="explore-btn">Explore More</button>
-                    <button class="discover__create-btn" id="create-btn">create NFT</button>
-                </form>
-                <div class="discover__statistics">
-                    <div class="discover__statistics-quantity">430K+ <span>Art Works</span></div>
-                    <div class="discover__statistics-quantity">159K+ <span>Creators</span></div>
-                    <div class="discover__statistics-quantity">87K+ <span>Collections</span></div>
-                </div>
+        <div class="discover__wrapper">
+            <h2 class="discover__title">Discover NFTs</h2>
+            <div class="discover__btn">
+                <button class="discover__category">Category</button>
+                <button class="discover__collection">Collection</button>
+                <button class="discover__price">Price</button>
             </div>
-            <div class="discover__rectangle">
-                <div class="discover__rectangle-img">
-                    <div class="swiper swiper-discover" id="swiper-discover">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img  class="discover__img" src="./img/weekly/image-2.jpg" alt="img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img  class="discover__img" src="./img/weekly/image-3.jpg" alt="Rectangle-3">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img  class="discover__img" src="./img/weekly/image-4.jpg" alt="Rectangle-3">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img  class="discover__img" src="./img/weekly/image-1.jpg" alt="Rectangle-3">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="discover__rectangle-btn">
-                    @@include('elements/btnBarDiscover.html')
-                </div>
-            </div> 
-            <div class="discover__arrow">
-                <img class="discover__arrow-1" src="./img/discover/arrow-01.svg" alt="arrow-01">
+            <div class="discover__cards">
+                @@loop('elements/discover-card.html', 'data/discover.json')
+            </div>
+            <div class="discover__loading">
+                <img src="./img/discover/loading.png" alt="loading">
             </div>
         </div>
     </div>

@@ -1,5 +1,4 @@
 .marketplace {
-    
 }
 
 .marketplace__wrapper {
@@ -23,7 +22,7 @@
 }
 
 .marketplace__btn-all {
-    padding: 17.7px;
+    padding: 17.7px 26.5px;
 }
 .marketplace__btn-category {
     position: relative;
@@ -96,8 +95,7 @@
         margin-bottom: 103px;
         transition: all 0.3s ease-in;
         &:hover {
-            opacity: 0.8;
+            right: -30px;
         }
     }
-    
 }
